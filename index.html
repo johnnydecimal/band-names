@@ -23,44 +23,42 @@
 		></script>
 	</head>
 
-	<body class="mx-4 leading-relaxed bg-pink-100">
+	<body
+		class="grid justify-center mx-4 mt-6 leading-relaxed text-pink-800 bg-pink-100"
+		style="
+			min-height: 95vh;
+			grid-template-columns: minmax(0, 65ch);
+			grid-template-rows: 40px 4fr 1fr 50px;
+		"
+	>
 		<!-- Wrap everything in a grid, one column 65ch wide -->
-		<div
-			class="grid justify-center gap-4 mt-6 text-pink-800"
-			style="
-				grid-template-columns: minmax(0, 65ch);
-				grid-template-rows: 40px 4fr 1fr 50px;
-				height: 95vh;
-			"
+		<header
+			class="w-5/6 text-4xl text-center border-b-2 border-pink-800 font-header justify-self-center md:w-3/4"
 		>
-			<header
-				class="w-5/6 text-4xl text-center border-b-2 border-pink-800 font-header justify-self-center md:w-3/4"
-			>
-				Band Names
-			</header>
-			<main
-				class="self-center leading-relaxed text-center sm:leading-relaxed font-metal text-8xl sm:text-9xl"
-			>
-				Meat <br />Lozenge
-			</main>
-			<div
-				class="w-5/6 text-2xl border-b border-pink-800 justify-self-center font-header md:w-3/4"
-			>
-				&mdash; Metal
-			</div>
-
-			<footer
-				class="grid w-5/6 md:w-3/4 justify-self-center"
-				style="grid-template-columns: 50px 1fr 50px; align-items: center"
-			>
-				<nav class="text-2xl">
-					<i class="fas fa-arrow-circle-left"></i>
-				</nav>
-				<div class="text-xs justify-self-center">&copy;2021 Jucy.Works</div>
-				<nav class="text-2xl justify-self-end">
-					<i class="fas fa-arrow-circle-right"></i>
-				</nav>
-			</footer>
+			Band Names
+		</header>
+		<main
+			class="self-center leading-relaxed text-center sm:leading-relaxed font-metal text-8xl sm:text-9xl"
+		>
+			Meat <br />Lozenge
+		</main>
+		<div
+			class="w-5/6 text-2xl border-b border-pink-800 justify-self-center font-header md:w-3/4"
+		>
+			&mdash; Metal
 		</div>
+
+		<footer
+			class="grid w-5/6 md:w-3/4 justify-self-center"
+			style="grid-template-columns: 50px 1fr 50px; align-items: center"
+		>
+			<nav class="text-2xl">
+				<i class="fas fa-arrow-circle-left"></i>
+			</nav>
+			<div class="text-xs justify-self-center">&copy;2021 Jucy.Works</div>
+			<nav class="text-2xl justify-self-end">
+				<i class="fas fa-arrow-circle-right"></i>
+			</nav>
+		</footer>
 	</body>
 </html>
