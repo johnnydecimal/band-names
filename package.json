@@ -1,0 +1,27 @@
+{
+	"name": "band-names",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.html",
+	"dependencies": {
+		"autoprefixer": "^10.1.0",
+		"postcss": "^8.2.2",
+		"tailwindcss": "^2.0.2"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "browser-sync start --server --files *.html --no-open",
+		"dev": "npx tailwindcss-cli@latest build -o tailwind.css && browser-sync start --server --files *.html --no-open"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/johnnydecimal/astronological.org.git"
+	},
+	"author": "",
+	"license": "UNLICENSED",
+	"bugs": {
+		"url": "https://github.com/johnnydecimal/astronological.org/issues"
+	},
+	"homepage": "https://github.com/johnnydecimal/astronological.org#readme"
+}
